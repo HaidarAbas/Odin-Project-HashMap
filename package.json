@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@biomejs/biome": "2.4.12",
+    "mocha": "^11.7.5"
+  },
+  "scripts": {
+    "test": "npx mocha",
+    "testtdd": "npx mocha --ui tdd --inline-diffs true"
+  },
+  "type": "module"
+}
